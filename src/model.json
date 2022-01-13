@@ -1,10 +1,9 @@
 {
     "eyebrow": {
         "happy": {
-            "normal": 7,
+            "normal": 10,
             "AU1": 3,
-            "AU1+2": 1,
-            "AU4": 1
+            "AU1+2": 1
         },
         "surprise": {
             "AU1+2": 6,
@@ -19,15 +18,16 @@
             "AU4": 6
         },
         "disgust": {
-            "normal": 9,
+            "normal": 8,
             "AU1+2": 1,
             "AU4": 1,
             "AU1": 1
         },
         "angry": {
-            "AU4": 10,
+            "AU4": 8,
             "normal": 1,
-            "AU1": 1
+            "AU1": 1,
+            "AU2": 1
         },
         "scare": {
             "AU1+2+4": 6,
@@ -41,7 +41,8 @@
     "eyelid": {
         "happy": {
             "normal": 7,
-            "AU7": 5
+            "AU7": 4,
+            "AU5+7": 3
         },
         "surprise": {
             "AU5": 9,
@@ -52,12 +53,12 @@
             "AU7": 4
         },
         "disgust": {
-            "normal": 11,
+            "normal": 10,
             "AU5": 1
         },
         "angry": {
-            "AU5+7": 6,
-            "AU5": 4,
+            "AU5+7": 4,
+            "AU5": 5,
             "AU7": 1,
             "normal": 1
         },
@@ -73,7 +74,7 @@
     },
     "cheek": {
         "happy": {
-            "AU6": 10,
+            "AU6": 12,
             "normal": 2
         },
         "surprise": {
@@ -85,10 +86,10 @@
             "AU6": 1
         },
         "disgust": {
-            "normal": 12
+            "normal": 11
         },
         "angry": {
-            "normal": 12
+            "normal": 11
         },
         "scare": {
             "normal": 15
@@ -99,7 +100,7 @@
     },
     "nose": {
         "happy": {
-            "normal": 12
+            "normal": 14
         },
         "surprise": {
             "normal": 10,
@@ -110,10 +111,10 @@
         },
         "disgust": {
             "AU9": 6,
-            "normal": 6
+            "normal": 5
         },
         "angry": {
-            "normal": 11,
+            "normal": 10,
             "AU9": 1
         },
         "scare": {
@@ -125,9 +126,9 @@
     },
     "lip": {
         "happy": {
-            "AU12": 7,
+            "AU12": 8,
             "AU23": 1,
-            "normal": 4
+            "normal": 5
         },
         "surprise": {
             "normal": 10,
@@ -143,15 +144,14 @@
             "AU10": 5,
             "normal": 2,
             "AU16": 3,
-            "AU10+16": 1,
             "AU20": 1
         },
         "angry": {
-            "AU10+23": 2,
             "AU23": 3,
             "AU24": 3,
             "normal": 3,
-            "AU10": 1
+            "AU10": 1,
+            "AU16": 1
         },
         "scare": {
             "normal": 6,
@@ -165,7 +165,7 @@
     },
     "jaw": {
         "happy": {
-            "normal": 11,
+            "normal": 13,
             "AU17": 1
         },
         "surprise": {
@@ -176,12 +176,12 @@
             "AU17": 2
         },
         "disgust": {
-            "normal": 11,
+            "normal": 10,
             "AU17": 1
         },
         "angry": {
-            "normal": 7,
-            "AU17": 5
+            "AU17": 5,
+            "normal": 6
         },
         "scare": {
             "normal": 15
@@ -192,7 +192,7 @@
     },
     "mouth": {
         "happy": {
-            "normal": 8,
+            "normal": 10,
             "AU27": 2,
             "AU26": 1,
             "AU25": 1
@@ -208,14 +208,13 @@
         },
         "disgust": {
             "normal": 7,
-            "AU25": 3,
+            "AU25": 2,
             "AU26": 2
         },
         "angry": {
-            "AU25": 1,
-            "AU26": 1,
             "normal": 9,
-            "AU27": 1
+            "AU27": 1,
+            "AU26": 1
         },
         "scare": {
             "normal": 4,
@@ -230,11 +229,11 @@
         }
     },
     "emotion": {
-        "happy": 12,
+        "happy": 14,
         "surprise": 11,
         "sad": 13,
-        "disgust": 12,
-        "angry": 12,
+        "disgust": 11,
+        "angry": 11,
         "scare": 15,
         "normal": 7,
         "total": 82

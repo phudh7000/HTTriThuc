@@ -63,7 +63,6 @@ AU1,normal,normal,normal,AU10,normal,normal,disgust
 normal,normal,AU6,normal,normal,normal,AU25,happy
 normal,normal,AU6,normal,normal,normal,AU27,happy
 AU1,normal,AU6,normal,AU12,normal,normal,happy
-AU4,AU7,normal,normal,AU12,normal,normal,happy
 normal,normal,normal,normal,AU16,normal,AU26,normal
 AU1,AU5,normal,normal,normal,normal,AU27,surprise
 AU1,AU5,normal,normal,normal,normal,AU26,surprise
@@ -78,3 +77,7 @@ normal,normal,normal,normal,normal,normal,AU25,normal
 normal,AU7,normal,normal,AU24,normal,normal,normal
 AU4,AU5,normal,AU9,AU10,normal,AU27,angry
 AU1,AU7,normal,normal,AU24,AU17,AU26,sad
+AU2,AU5,normal,normal,AU16,normal,AU26,angry
+normal,AU5+7,AU6,normal,AU12,normal,normal,happy
+normal,AU5+7,AU6,normal,normal,normal,normal,happy
+normal,AU5+7,normal,normal,AU12,normal,normal,happy
